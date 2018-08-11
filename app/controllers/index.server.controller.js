@@ -5,7 +5,7 @@ exports.render = function(req,res) {
 
 	req.session.lastVisist = new Date();
 	
-	res.render('index'), {
+	res.render('index', {
 		title: 'Hello World'
-	}
+	})
 };
